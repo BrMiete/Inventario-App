@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.register-page {
+    background-color: #272224;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 20%;
+    text-align: center;
+}
+
+.register-page p {
+    margin-top: 20px;
+}
+
+.register-page a {
+    color: #008e91;
+}

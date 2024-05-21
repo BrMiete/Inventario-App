@@ -1,0 +1,20 @@
+.main-body {
+    background-color: #fffffa;
+    /* background-color: #00d4ff; */
+    border: 2px solid black;
+    border-radius: 11px;
+    display: flex;
+    width: 1245px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.sidebar-part-main {
+    width: 20%;
+}
+
+.page-part-main {
+    width: 80%;
+}

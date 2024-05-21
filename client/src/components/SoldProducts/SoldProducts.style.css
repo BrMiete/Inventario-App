@@ -1,0 +1,92 @@
+.sold-body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.sold-header {
+    background-color: #272224;
+    color: #ffffff;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid black;
+}
+
+.sold-header button {
+    background-color: #008e91;
+    color: #ffffff;
+    padding: 0px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 43px;
+}
+
+.sold-table table {
+    overflow-y: auto;
+    border-collapse: collapse;
+    border: 2px solid #1d232d;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 30px;
+}
+
+.sold-table caption {
+    color: black;
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.sold-table thead, tfoot {
+    background-color: #272224;
+    color: #ffffff;
+}
+
+.sold-table th, td {
+    border: 1px solid #fffffa;
+    padding: 8px 10px;
+    font-weight: bolder;
+}
+
+.sold-table td:last-of-type {
+    text-align: center;
+}
+
+.sold-table tbody > tr:nth-of-type(even) {
+    background-color: #DED9DB;
+}
+
+.sold-table tbody > tr:nth-of-type(odd) {
+    background-color: #fffffa;
+}
+
+.sold-table tbody tr td {
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.sold-table button {
+    background-color: #4b4146;
+    color: #ffffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.sold-errors {
+    color: #cc0000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sold-message {
+    text-align: center;
+    margin-top: 30px;
+}
